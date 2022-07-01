@@ -202,7 +202,7 @@ const Home: NextPage = () => {
                 className={styles.mainButton}
                 onClick={connectWithMetamask}
               >
-                Connect MetaMask
+                Connect Wallet
               </button>
               
             </div>
