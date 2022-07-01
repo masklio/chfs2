@@ -93,7 +93,7 @@ const Home: NextPage = () => {
         src="/logo.png"
         alt="thirdweb Logo"
         width={300}
-        className={styles.buttonGapTop}
+        className={styles.thirdwebLogo}
       />
       <div className={styles.mintInfoContainer}>
         <div className={styles.infoSide}>
