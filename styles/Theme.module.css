@@ -56,14 +56,7 @@
   border-radius: 16px;
 }
 
-.buttons {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  margin: 12px 0;
-}
+
 .mainButton {
   cursor: pointer;
   display: inline-flex;
@@ -90,7 +83,7 @@
     var(--color-secondary) 101.52%
   );
   color: #fff;
-  padding: 20px;
+  width: 180px;
   text-align: center;
   border-radius: 9999px;
   border-style: none;
