@@ -7,8 +7,7 @@ import {
   useUnclaimedNFTSupply,
   useActiveClaimCondition,
   useClaimNFT,
-  useWalletConnect,
-  useCoinbaseWallet,
+  
 } from '@thirdweb-dev/react';
 import { useNetworkMismatch } from '@thirdweb-dev/react';
 import { useAddress, useMetamask } from '@thirdweb-dev/react';
@@ -24,8 +23,7 @@ const Home: NextPage = () => {
   const nftDrop = useNFTDrop(myNftDropContractAddress);
   const address = useAddress();
   const connectWithMetamask = useMetamask();
-  const connectWithWalletConnect = useWalletConnect();
-  const connectWithCoinbaseWallet = useCoinbaseWallet();
+  
   const isOnWrongNetwork = useNetworkMismatch();
   const claimNFT = useClaimNFT(nftDrop);
   const [, switchNetwork] = useNetwork();
@@ -206,18 +204,7 @@ const Home: NextPage = () => {
               >
                 Connect MetaMask
               </button>
-              <button
-                className={styles.mainButton}
-                onClick={connectWithWalletConnect}
-              >
-                Connect with Wallet Connect
-              </button>
-              <button
-                className={styles.mainButton}
-                onClick={connectWithCoinbaseWallet}
-              >
-                Connect with Coinbase Wallet
-              </button>
+              
             </div>
           )}
         </div>
