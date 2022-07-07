@@ -2,7 +2,7 @@ import styles from "../../styles/Thirdweb.module.css";
 import React from "react";
 
 export default function ThirdwebGuideFooter() {
-  const url = "https://opensea.io/collection/chfs";
+  const url = "https://bitkeep.com/";
   const url0 = "https://element.market/collections/chfs";
   return (
     <>
@@ -31,7 +31,7 @@ export default function ThirdwebGuideFooter() {
         }}
       >
         <img
-          src={"/opensea.png"}
+          src={"/Bitkeep.png"}
           width={40}
           height={40}
           role="button"
