@@ -74,13 +74,13 @@ export default function ThirdwebGuideFooter() {
           style={{ cursor: "pointer" }}
           onClick={() => window.open(url2, "_blank")}
         />
-      </div>
-            
+      </div>     
+      
       <div
         style={{
           position: "fixed",
-          bottom: 450,
-          right: 20,
+          bottom: 500,
+          right: 10,
         }}
       >
         <img
@@ -96,7 +96,7 @@ export default function ThirdwebGuideFooter() {
       <div
         style={{
           position: "fixed",
-          bottom: 500,
+          bottom: 450,
           right: 20,
         }}
       >
