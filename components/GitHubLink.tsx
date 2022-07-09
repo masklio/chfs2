@@ -2,8 +2,10 @@ import styles from "../../styles/Thirdweb.module.css";
 import React from "react";
 
 export default function ThirdwebGuideFooter() {
-  const url = "https://bitkeep.com/";
-  const url0 = "https://element.market/collections/chfs";
+  const url1 = "https://bitkeep.com/";
+  const url2 = "https://element.market/collections/chfs";
+  const url3 = "https://twitter.com/chinese_figure";
+  const url4 = "https://discord.com/invite/RxXeuJkpJm";
   return (
     <>
       <div
@@ -20,7 +22,7 @@ export default function ThirdwebGuideFooter() {
           cursor: "pointer",
         }}
         role="button"
-        onClick={() => window.open(url, "_blank")}
+        onClick={() => window.open(url1, "_blank")}
       />
 
       <div
@@ -36,7 +38,7 @@ export default function ThirdwebGuideFooter() {
           height={40}
           role="button"
           style={{ cursor: "pointer" }}
-          onClick={() => window.open(url, "_blank")}
+          onClick={() => window.open(url1, "_blank")}
         />
       </div>
       
@@ -54,7 +56,7 @@ export default function ThirdwebGuideFooter() {
           cursor: "pointer",
         }}
         role="button"
-        onClick={() => window.open(url0, "_blank")}
+        onClick={() => window.open(url2, "_blank")}
       />
 
       <div
@@ -70,9 +72,45 @@ export default function ThirdwebGuideFooter() {
           height={40}
           role="button"
           style={{ cursor: "pointer" }}
-          onClick={() => window.open(url0, "_blank")}
+          onClick={() => window.open(url2, "_blank")}
         />
       </div>
+      
+      <div
+        style={{
+          position: "fixed",
+          bottom: 500,
+          left: 1160,
+        }}
+      >
+        <img
+          src={"/Twitter.png"}
+          width={30}
+          height={30}
+          role="button"
+          style={{ cursor: "pointer" }}
+          onClick={() => window.open(url3, "_blank")}
+        />
+      </div>
+
+      <div
+        style={{
+          position: "fixed",
+          bottom: 500,
+          left: 1200,
+        }}
+      >
+        <img
+          src={"/Discord.png"}
+          width={30}
+          height={30}
+          role="button"
+          style={{ cursor: "pointer" }}
+          onClick={() => window.open(url4, "_blank")}
+        />
+      </div>
+
+  
 
     </>
   );
