@@ -80,7 +80,7 @@ export default function ThirdwebGuideFooter() {
         style={{
           position: "fixed",
           bottom: 500,
-          right: 10,
+          right: 8,
         }}
       >
         <img
@@ -97,7 +97,7 @@ export default function ThirdwebGuideFooter() {
         style={{
           position: "fixed",
           bottom: 450,
-          right: 20,
+          right: 8,
         }}
       >
         <img
