@@ -30,6 +30,7 @@ export default function ThirdwebGuideFooter() {
           position: "fixed",
           bottom: 14,
           right: 18,
+          opacity: 0.7,
         }}
       >
         <img
@@ -64,6 +65,7 @@ export default function ThirdwebGuideFooter() {
           position: "fixed",
           bottom: 14,
           left: 18,
+          opacity: 0.7,
         }}
       >
         <img
@@ -81,6 +83,7 @@ export default function ThirdwebGuideFooter() {
           position: "fixed",
           bottom: 500,
           right: 8,
+          opacity: 0.7,
         }}
       >
         <img
@@ -98,6 +101,7 @@ export default function ThirdwebGuideFooter() {
           position: "fixed",
           bottom: 450,
           right: 8,
+          opacity: 0.7,
         }}
       >
         <img
@@ -109,8 +113,6 @@ export default function ThirdwebGuideFooter() {
           onClick={() => window.open(url4, "_blank")}
         />
       </div>
-
-  
 
     </>
   );
